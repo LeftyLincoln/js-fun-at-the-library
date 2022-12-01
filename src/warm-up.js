@@ -11,7 +11,8 @@
 // a book's title and page count.
 
 var title = "Harry Potter";
-var pages = 532
+
+
 
 
 
@@ -41,14 +42,8 @@ var isFavorite = true
 // variable should be true, otherwise it should be false. You MUST use a
 // comparison operator.
 
+var isShortStory = (pages < 25) ? (isShortStory = true) : (isShortStory = false)
 
-    if (pages < 25) {
-     var isShortStory = true
-    } else {
-        var isShortStory = false
-    }
-
-    console.log(isShortStory)
 
 
  
