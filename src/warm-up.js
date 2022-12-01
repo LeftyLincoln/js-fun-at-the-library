@@ -42,8 +42,12 @@ var isFavorite = true
 // variable should be true, otherwise it should be false. You MUST use a
 // comparison operator.
 
-var isShortStory = (pages < 25) ? (isShortStory = true) : (isShortStory = false)
-
+var isShortStory
+    if (pages < 25) {
+        isShortStory = true 
+}   else {
+    isShortStory = false
+}
 
 
  
