@@ -14,10 +14,22 @@ function unshelfBook(object, shelf) {
 }
 }
 
-function listTitles() {
-  
+function listTitles(shelf) {
+  var titleList = []
+  for (var i = 0; i < shelf.length; i++) {
+    titleList.push(shelf[i].title)
+  } 
+  return titleList.join(", ")
 }
 
+
+function searchShelf(shelf, book) {
+  for (var i = 0; i < shelf.length; i++) {
+    if(shelf[i].title === book) {
+      return true
+    } 
+  } return false
+}
 
 
 
@@ -27,5 +39,5 @@ module.exports = {
   shelfBook,
    unshelfBook,
   listTitles,
-  // searchShelf
+  searchShelf
 };
