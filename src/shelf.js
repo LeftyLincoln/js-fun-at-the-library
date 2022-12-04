@@ -28,7 +28,8 @@ function searchShelf(shelf, book) {
     if(shelf[i].title === book) {
       return true
     } 
-  } return false
+  } 
+  return false
 }
 
 
