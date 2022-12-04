@@ -32,8 +32,8 @@ function writeBook(title, mainCharacter, genre) {
   }
 }
 
-function editBook(title){
-  return title.pageCount *= .75
+function editBook(object){
+  return object.pageCount *= .75
 }
 
 module.exports = {
