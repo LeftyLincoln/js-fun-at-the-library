@@ -9,8 +9,8 @@ function createLibrary(name, shelves) {
     }
 }
 
-function addBook(name, object) {
-    name.shelves[object.genre].push(object)
+function addBook(library, book) {
+    library.shelves[book.genre].push(book)
 }
 
 
