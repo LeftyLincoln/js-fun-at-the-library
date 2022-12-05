@@ -32,7 +32,7 @@ function writeBook(title, mainCharacter, genre) {
   }
 }
 
-function editBook(object){
+function editBook(object) {
   return object.pageCount *= .75
 }
 
