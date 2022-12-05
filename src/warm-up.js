@@ -11,7 +11,7 @@
 // a book's title and page count.
 
 var title = "Harry Potter";
-var pages = 320
+var pages = 300
 
 
 
